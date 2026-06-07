@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HealthWise AI</string>
+    <string name="medical_disclaimer">AI guidance is not a diagnosis. Seek professional medical help for urgent symptoms.</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="call_emergency_services_if_you_have_chest_pain_severe_breathing_difficulty_sudden_weakness_confusion_fainting_or_uncontrolled_bleeding">Call emergency services if you have chest pain, severe breathing difficulty, sudden weakness, confusion, fainting, or uncontrolled bleeding.</string>
+    <string name="search_health_topics">Search health topics...</string>
+</resources>

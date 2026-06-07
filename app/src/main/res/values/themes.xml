@@ -1,0 +1,27 @@
+<resources>
+    <style name="Theme.HealthWiseAI" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorTertiary">@color/tertiary</item>
+        <item name="colorError">@color/error</item>
+        <item name="android:colorAccent">@color/primary</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/surface_container</item>
+    </style>
+
+    <style name="Widget.HealthWise.Button" parent="Widget.Material3.Button">
+        <item name="cornerRadius">24dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+    <style name="Widget.HealthWise.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.HealthWise.Large</item>
+    </style>
+
+    <style name="ShapeAppearance.HealthWise.Large">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+</resources>

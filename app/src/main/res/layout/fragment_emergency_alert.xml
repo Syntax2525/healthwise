@@ -1,0 +1,49 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emergency Alert"
+            android:textColor="@color/error"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_emergency"
+            android:padding="16dp"
+            android:text="@string/call_emergency_services_if_you_have_chest_pain_severe_breathing_difficulty_sudden_weakness_confusion_fainting_or_uncontrolled_bleeding"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/callEmergencyButton"
+            style="@style/Widget.HealthWise.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/error"
+            android:text="Call 911" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_card"
+            android:padding="16dp"
+            android:text="While waiting, stay seated or lying down, unlock the door if safe, and keep your phone nearby."
+            android:textColor="@color/on_surface_variant" />
+    </LinearLayout>
+</ScrollView>
