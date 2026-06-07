@@ -13,7 +13,7 @@
             android:layout_height="wrap_content"
             android:text="AI Diagnosis Result"
             android:textColor="@color/primary"
-            :textSize="28sp"
+            android:textSize="28sp"
             android:textStyle="bold" />
 
         <LinearLayout

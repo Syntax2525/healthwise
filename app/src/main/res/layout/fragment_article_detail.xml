@@ -9,6 +9,7 @@
         android:padding="16dp">
 
         <TextView
+            android:id="@+id/articleTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Staying Hydrated"
@@ -17,6 +18,7 @@
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/articleMeta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
@@ -25,11 +27,14 @@
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/articleBody"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            :background="@drawable/bg_card"
+            android:background="@drawable/bg_card"
             android:padding="16dp"
-            android:text="Hydration supports energy, temperature regulation, digestion, and cognitive function. Most people benefit from drinking water regularly through the day, especially during warm weather, exercise, fever, or recovery.\n\nChoose water often, pair fluids with meals, and watch for signs like dark urine, dizziness, dry mouth, or unusual fatigue." android:textColor="@color/on_surface_variant" android:textSize="16sp" />
+            android:text="Hydration supports energy, temperature regulation, digestion, and cognitive function. Most people benefit from drinking water regularly through the day, especially during warm weather, exercise, fever, or recovery.\n\nChoose water often, pair fluids with meals, and watch for signs like dark urine, dizziness, dry mouth, or unusual fatigue."
+            android:textColor="@color/on_surface_variant"
+            android:textSize="16sp" />
     </LinearLayout>
 </ScrollView>

@@ -26,16 +26,33 @@
             android:textColor="@color/on_surface_variant" />
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/symptomsInputLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:hint="What symptoms are you feeling?"
             app:boxBackgroundMode="filled">
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/symptomsEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapSentences|textMultiLine"
+                android:minLines="2" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/durationInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="How long have you had these symptoms?"
+            app:boxBackgroundMode="filled">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/durationEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text" />
-
         </com.google.android.material.textfield.TextInputLayout>
         <TextView
             android:layout_width="match_parent"
@@ -71,16 +88,31 @@
                 android:textStyle="bold" />
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/ageInputLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
                 android:hint="Age"
                 app:boxBackgroundMode="filled">
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ageEditText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="number"
-                    android:text="28" />
+                    android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/genderInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="Gender"
+                app:boxBackgroundMode="filled">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/genderEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapWords" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <TextView

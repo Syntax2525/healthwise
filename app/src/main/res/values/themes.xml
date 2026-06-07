@@ -20,8 +20,10 @@
         <item name="shapeAppearanceOverlay">@style/ShapeAppearance.HealthWise.Large</item>
     </style>
 
-    <style name="ShapeAppearance.HealthWise.Large">
+    <style name="ShapeAppearance.HealthWise" parent="ShapeAppearance.Material3.LargeComponent">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">16dp</item>
     </style>
+
+    <style name="ShapeAppearance.HealthWise.Large" parent="ShapeAppearance.HealthWise" />
 </resources>

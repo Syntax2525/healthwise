@@ -10,9 +10,10 @@
         android:padding="16dp">
 
         <TextView
+            android:id="@+id/greetingText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hello, syntax!"
+            android:text="Hello!"
             android:textColor="@color/on_surface_variant"
             android:textSize="12sp" />
 
@@ -33,8 +34,10 @@
             app:boxBackgroundMode="filled">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/searchEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:imeOptions="actionSearch"
                 android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -182,12 +185,13 @@
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/healthTipText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:background="@drawable/bg_card_tonal"
             android:padding="16dp"
-            android:text="Daily tip\nStaying Hydrated\nDrinking at least 8 glasses of water daily boosts cognitive function and skin health."
+            android:text="Daily tip"
             android:textColor="@color/background" />
     </LinearLayout>
 </ScrollView>
